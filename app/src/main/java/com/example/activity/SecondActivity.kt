@@ -20,8 +20,10 @@ class SecondActivity : AppCompatActivity() {
         textNumber = findViewById(R.id.tv_Number)
         okButton = findViewById(R.id.okButton)
 
+
+
         val number = intent.getStringExtra("number")
-        val intent = Intent(Intent.ACTION_DIAL)
+        val intent = Intent(Intent.ACTION_CALL)
         intent.data = Uri.parse("tel:" + number)
 
         textNumber.text = "" + number
