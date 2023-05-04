@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Activity</string>
+    <string name="number">Введите номер</string>
+    <string name="done">Готово</string>
+    <string name="correct">Все верно?</string>
+    <string name="check">Потвердить</string>
 </resources>
